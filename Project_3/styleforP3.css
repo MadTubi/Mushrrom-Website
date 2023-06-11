@@ -1,0 +1,141 @@
+body{
+    background-color: #ccd5ae;
+}
+
+h1{
+    color:#FDFAE2;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    padding: 30px;
+    font-size: 20px;
+}
+
+nav{
+    background-color: #D4A473;
+}
+
+div{
+    margin: auto;
+    width:60%;
+    background-color: #F9EDCD;
+}
+
+h2{
+    color:#FDFAE2;
+}
+
+img{
+
+    
+    width:50%;
+    height:50%
+    
+    
+}
+
+footer{
+    text-align: center;
+    background-color: #D4A473;
+}
+
+#about{
+    font-size: 20px;
+    text-align: left;
+}
+
+#poisonoush{
+    text-align: center;
+}
+
+#bottomOfAbout{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+  
+    
+}
+
+
+#who2{
+    list-style-type: square;
+}
+
+#who{
+    display:list-item;
+    
+}
+
+#textOnSap{
+    font-size: 20px;
+    color:#FDFAE2;
+}
+#three{
+    border:solid #D4A473;
+}
+
+#im1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#centerp{
+    text-align: center;
+}
+
+#Image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height:80%;
+}
+
+#morelH2{
+    color:#D4A473
+}
+
+#CenterForPhotos{
+    text-align: center;
+}
+
+#top{
+    text-align: center;
+}
+
+/*phone iphone x*/
+@media(min-device-width:375px) and (max-device-width:812px) and (orientation:portrait){
+    
+    img{
+
+        width:50%;
+        height:50%;
+
+    }
+
+    li{
+        display: block;
+        text-align: center;
+    }
+
+}
+
+/*ipad air*/
+@media(min-device-width:820px) and (max-device-width:1180px) and(orientation:portrait){
+
+    
+    #footer1{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 60px;   /* Height of the footer */
+   
+    }
+}
